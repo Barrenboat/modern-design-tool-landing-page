@@ -24,6 +24,11 @@ const config: Config = {
             md: "768px",
             lg: "1200px",
         },
+        extend: {
+            cursor: {
+                you: "url('@/assets/images/cursor-you.svg'), auto",
+            },
+        },
     },
     plugins: [],
 };
