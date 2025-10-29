@@ -56,7 +56,7 @@ export default function Hero() {
     }, []);
 
     return (
-        <section className="py-24 overflow-x-clip cursor-you">
+        <section className="py-24 overflow-x-clip lg:cursor-you">
             <div className="container relative">
                 <motion.div
                     ref={leftDesignScope}
@@ -122,7 +122,7 @@ export default function Hero() {
                         variant="primary"
                         size="sm"
                         className="whitespace-nowrap"
-                    > 
+                    >
                         Sign Up
                     </Button>
                 </form>
