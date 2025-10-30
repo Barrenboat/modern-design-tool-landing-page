@@ -111,7 +111,7 @@ export default function Faqs() {
                             </div>
                         ))}
                     </div>
-                    <div className="h-[576px]"></div>
+                    <div className="h-[700px] md:h-[576px]"></div>
                 </div>
             </div>
         </section>
